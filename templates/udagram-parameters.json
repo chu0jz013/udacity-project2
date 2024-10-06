@@ -1,0 +1,50 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "udagram-infrastructure"
+  },
+  {
+    "ParameterKey": "VolumeSize",
+    "ParameterValue": "10"
+  },
+  {
+    "ParameterKey": "ImageId",
+    "ParameterValue": "ami-005fc0f236362e99f"
+  },
+  {
+    "ParameterKey": "KeyPairName",
+    "ParameterValue": "haikn2-keypair"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+  {
+    "ParameterKey": "MinSize",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "DesiredCapacity",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "MaxSize",
+    "ParameterValue": "3"
+  },
+  {
+    "ParameterKey": "HealthCheckIntervalSeconds",
+    "ParameterValue": "10"
+  },
+  {
+    "ParameterKey": "HealthCheckTimeoutSeconds",
+    "ParameterValue": "8"
+  },
+  {
+    "ParameterKey": "HealthyThresholdCount",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "UnhealthyThresholdCount",
+    "ParameterValue": "5"
+  }
+]
